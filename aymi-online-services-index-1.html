@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AYMI Online Services | Lahore</title>
+<meta name="description" content="AYMI Online Services - CV, online forms, graphic design, documents, e-commerce and digital services in Lahore.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f8fc;color:#172033;line-height:1.6}
+a{text-decoration:none}
+header{background:#0b63ce;color:#fff;position:sticky;top:0;z-index:5}
+.nav{max-width:1100px;margin:auto;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}.logo span{color:#bde0ff}.nav a{color:#fff;margin-left:16px;font-weight:600}
+.hero{background:linear-gradient(135deg,#0759bb,#1688ed);color:#fff;padding:70px 20px}
+.wrap{max-width:1100px;margin:auto}.hero h1{font-size:44px;line-height:1.15;margin-bottom:16px}.hero p{font-size:19px;max-width:650px;margin-bottom:22px}
+.btn{display:inline-block;padding:12px 18px;border-radius:9px;font-weight:700;margin:4px}.white{background:#fff;color:#0759bb}.green{background:#18b95b;color:#fff}
+section{padding:52px 20px}.title{text-align:center;margin-bottom:28px}.title h2{font-size:30px;color:#102b52}.title p{color:#68758a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:#fff;border:1px solid #e4ebf3;border-radius:15px;padding:22px;box-shadow:0 6px 24px #173b6412}
+.card h3{color:#125fbb}.price{font-size:20px;font-weight:800;color:#0b8b4b;margin:10px 0}.card p{color:#68758a;font-size:14px}
+.formbox{background:#fff;max-width:720px;margin:auto;padding:26px;border-radius:15px;box-shadow:0 7px 28px #173b6414}
+label{display:block;font-weight:700;margin:12px 0 5px}input,select,textarea{width:100%;padding:12px;border:1px solid #ccd7e5;border-radius:8px;font-size:15px}textarea{min-height:100px}
+.submit{width:100%;border:0;cursor:pointer;font-size:16px;margin-top:15px}.payment{background:#102b52;color:#fff}.payment .card{color:#172033}
+footer{background:#071a32;color:#cbd8e8;text-align:center;padding:24px}.wa{position:fixed;right:18px;bottom:18px;background:#18b95b;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:27px;z-index:9}
+@media(max-width:700px){.nav{flex-direction:column;gap:8px;align-items:flex-start}.nav a{margin:0 12px 0 0}.hero h1{font-size:34px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">AYMI <span>Online Services</span></div><div><a href="#services">Services</a><a href="#order">Order</a><a href="#payment">Payment</a></div></div></header>
+
+<section class="hero"><div class="wrap">
+<h1>Apna Online Kaam<br>Ghar Bethay Karwain</h1>
+<p>Fast, reliable aur easy digital services. CV, online forms, graphic design, documents aur bohat si online services — Lahore se.</p>
+<a class="btn white" href="#services">Services Dekhein</a>
+<a class="btn green" target="_blank" href="https://wa.me/923274371722?text=Assalam-o-Alaikum%20AYMI%20Online%20Services%2C%20mujhe%20service%20chahiye.">WhatsApp Order</a>
+</div></section>
+
+<section id="services"><div class="title"><h2>Hamari Paid Services</h2><p>Service select karein aur Order Now par click karein.</p></div>
+<div class="wrap grid">
+<div class="card"><h3>CV / Resume</h3><p>Professional CV aur resume tayyar karwain.</p><div class="price">Rs. 300+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Online Forms</h3><p>Online applications aur forms fill karwanay ki service.</p><div class="price">Rs. 200+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Graphic Design</h3><p>Posters, flyers aur social media designs.</p><div class="price">Rs. 500+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Documents</h3><p>Typing, formatting aur document preparation.</p><div class="price">Rs. 300+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>E-Commerce Help</h3><p>Online store setup aur basic e-commerce assistance.</p><div class="price">Rs. 1,000+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Social Media</h3><p>Posts aur basic page management services.</p><div class="price">Rs. 1,000+</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Printing & Scanning</h3><p>Printing, scanning aur document assistance.</p><div class="price">Custom Rate</div><a class="btn green" href="#order">Order Now</a></div>
+<div class="card"><h3>Other Digital Services</h3><p>WhatsApp par kaam bhej kar rate poochein.</p><div class="price">Ask Price</div><a class="btn green" href="#order">Order Now</a></div>
+</div></section>
+
+<section id="order"><div class="title"><h2>Online Order Form</h2><p>Submit karne par WhatsApp open hoga.</p></div>
+<div class="formbox"><form id="orderForm">
+<label>Your Name</label><input id="name" required placeholder="Apna naam likhein">
+<label>Mobile / WhatsApp</label><input id="mobile" required placeholder="03XXXXXXXXX">
+<label>Service</label><select id="service" required><option value="">Service select karein</option><option>CV / Resume - Rs. 300+</option><option>Online Forms - Rs. 200+</option><option>Graphic Design - Rs. 500+</option><option>Document Preparation - Rs. 300+</option><option>E-Commerce Assistance - Rs. 1,000+</option><option>Social Media Services - Rs. 1,000+</option><option>Printing & Scanning</option><option>Other Digital Service</option></select>
+<label>Kaam ki Details</label><textarea id="details" required placeholder="Apna kaam detail mein likhein..."></textarea>
+<button class="btn green submit" type="submit">WhatsApp Par Order Bhejein</button>
+<p style="font-size:13px;color:#68758a;margin-top:8px">Final price kaam ki details dekh kar confirm ki jayegi.</p>
+</form></div></section>
+
+<section id="payment" class="payment"><div class="title"><h2 style="color:#fff">Payment Methods</h2><p style="color:#d7e4f3">Order confirm hone ke baad payment karein.</p></div>
+<div class="wrap grid">
+<div class="card"><h3>Easypaisa</h3><p>Account: <b>03274371722</b></p><p>Account Name: <b>Ahmad Ali</b></p></div>
+<div class="card"><h3>JazzCash</h3><p>Account: <b>03274371722</b></p><p>Account Name: <b>Ahmad Ali</b></p></div>
+<div class="card"><h3>Important</h3><p>Payment bhejne se pehle WhatsApp par final amount confirm karein.</p></div>
+</div></section>
+
+<section><div class="title"><h2>AYMI Online Services</h2><p>Lahore, Pakistan • WhatsApp: 03274371722</p></div></section>
+<footer>© 2026 AYMI Online Services. All Rights Reserved.</footer>
+<a class="wa" target="_blank" href="https://wa.me/923274371722?text=Assalam-o-Alaikum%20AYMI%20Online%20Services%2C%20mujhe%20online%20service%20chahiye.">☏</a>
+
+<script>
+document.getElementById('orderForm').addEventListener('submit',function(e){
+e.preventDefault();
+const name=document.getElementById('name').value.trim(), mobile=document.getElementById('mobile').value.trim(), service=document.getElementById('service').value, details=document.getElementById('details').value.trim();
+const msg=`AYMI Online Services Order%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(mobile)}%0AService: ${encodeURIComponent(service)}%0ADetails: ${encodeURIComponent(details)}`;
+window.open('https://wa.me/923274371722?text='+msg,'_blank');
+});
+</script>
+</body>
+</html>
